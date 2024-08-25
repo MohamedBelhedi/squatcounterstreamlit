@@ -42,7 +42,7 @@ def SquatCounter():
     # Versuche, die Kamera zu öffnen
     cap = open_camera(0)
     if cap is None:
-        cap = open_camera(1)  # Versuche den nächsten Index
+        cap = open_camera(0)  # Versuche den nächsten Index
 
     if cap is None:
         print("Keine Kamera verfügbar")
