@@ -40,7 +40,7 @@ def SquatCounter():
     global stage
 
     # Versuche, die Kamera zu öffnen
-    cap = open_camera(1)
+    cap = open_camera(0)
     if cap is None:
         cap = open_camera(1)  # Versuche den nächsten Index
 
